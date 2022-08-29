@@ -6,13 +6,17 @@ Crowd based funding campaigns, such as those managed through “Kickstarter”, 
 
 ## Part 2: Analysis and Challenges
 
-Initial analysis was performed by comparing Kickstarter campaign outcomes (successful, failed or canceled) for all theater projects, as compared to when the campaign was launched (see Figure 1: Theater Outcomes Based on Launch Date).  As the project launch date in the original data set was recorded in epoch time, displaying the month in which the project was launched represented a challenge.  Through first transforming epoch time to standard time and then applying the appropriate filters, it was possible to produce an analysis that was not only readable but also beneficial.
+Initial analysis was performed by comparing Kickstarter campaign outcomes (successful, failed or canceled) for all theater projects, as compared to when the campaign was launched (see Figure 1: Theater Outcomes Based on Launch Date).
 
-https://github.com/Scruffy-Bearie/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png
+![xxx](https://github.com/Scruffy-Bearie/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
-Additional analysis was performed by comparing Kickstarter campaign outcomes (percentage successful, failed or canceled) specifically for “plays” as compared to the campaign fundraising objectives (see Figure 2: Outcomes Based on Goal).  As individual campaign objectives were posted as specific dollar amounts, analysis of groups of campaigns in any useful format represented a challenge.  Through first establishing reasonable ranges of fundraising objectives and then grouping the relevant campaigns into these ranges, it was possible to produce a more digestible analysis.
+As the project launch date in the original data set was recorded in epoch time, displaying the month in which the project was launched represented a challenge.  Through first transforming epoch time to standard time and then applying the appropriate filters, it was possible to produce an analysis that was not only readable but also beneficial.
 
-https://github.com/Scruffy-Bearie/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png
+Additional analysis was performed by comparing Kickstarter campaign outcomes (percentage successful, failed or canceled) specifically for “plays” as compared to the campaign fundraising objectives (see Figure 2: Outcomes Based on Goal).
+
+![xxx](https://github.com/Scruffy-Bearie/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+
+As individual campaign objectives were posted as specific dollar amounts, analysis of groups of campaigns in any useful format represented a challenge.  Through first establishing reasonable ranges of fundraising objectives and then grouping the relevant campaigns into these ranges, it was possible to produce a more digestible analysis.
 
 ## Part 3: Results
 
